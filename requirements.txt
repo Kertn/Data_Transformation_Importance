@@ -1,0 +1,8 @@
+pandas
+plotly
+ipywidgets
+numpy
+jsonschema
+pillow
+matplotlib
+voila
