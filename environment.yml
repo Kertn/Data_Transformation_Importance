@@ -1,0 +1,17 @@
+name: my-environment
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pandas
+  - plotly
+  - voila
+  - ipywidgets
+  - jupyterlab
+  - matplotlib
+  - numpy
+  - pip
+  - pip:
+    - requests
+    - any-other-pip-package
