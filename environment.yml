@@ -5,13 +5,14 @@ channels:
 dependencies:
   - python=3.8
   - pandas
+  - requests
   - plotly
-  - voila
   - ipywidgets
-  - jupyterlab
-  - matplotlib
   - numpy
+  - matplotlib
+  - pillow
+  - jupyterlab
   - pip
   - pip:
-    - requests
-    - any-other-pip-package
+      - plotly
+      - requests
